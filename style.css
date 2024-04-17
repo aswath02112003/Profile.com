@@ -1,0 +1,249 @@
+body,
+h2,
+h1,
+.li {
+   margin: 0px;
+}
+
+.li {
+   display: inline;
+   font-size: large;
+   border: 2px solid black;
+   padding: 5px;
+   background-color: rgb(180, 176, 176);
+   margin: 5px;
+}
+
+.li a {
+   color: black;
+   font-weight: 600;
+}
+
+a:active {
+   color: black;
+}
+
+h1 {
+   font-size: 4em;
+   text-align: center;
+   color: black;
+   background: linear-gradient(to right, rgb(44, 37, 182), rgb(202, 201, 223));
+   padding-top: 60px;
+}
+
+h2 {
+   font-size: 3em;
+   text-align: center;
+   color: black;
+   background: linear-gradient(to right, rgb(44, 37, 182), rgb(202, 201, 225));
+   padding: 60px;
+}
+
+table {
+   background-color: rgb(202, 201, 225);
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: normal;
+   max-width: 1200px;
+   max-height: 1200px;
+   font-weight: 100;
+   border-radius: 8px;
+   flex: 1;
+   border-spacing: 40px;
+}
+
+.home {
+   background-color: rgb(202, 201, 225);
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: normal;
+   font-weight: 100;
+   text-indent: 50px;
+   border-radius: 8px;
+   width: 1250px;
+   padding: 20px;
+   margin: 20px;
+   flex: 2;
+   line-height: 1.5em;
+   flex-wrap: wrap;
+}
+
+div a:link {
+   color: black;
+   font-size: large;
+}
+
+.text {
+   font-size: large;
+}
+
+.whitebox {
+   background-color: whitesmoke;
+   text-align: center;
+   height: 200px;
+   width: 200px;
+   border: 2px solid whitesmoke;
+   box-shadow: 2px 2px 2px grey;
+   border-radius: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition-duration: 1s;
+   transition-property: all;
+   margin: 20px;
+   font-weight: 750;
+}
+
+.whitebox2 {
+   background-color: whitesmoke;
+   height: 200px;
+   width: 200px;
+   border: 2px solid whitesmoke;
+   box-shadow: 2px 2px 2px grey;
+   border-radius: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition-duration: 1s;
+   transition-property: all;
+   margin: 20px;
+   font-weight: 750;
+
+}
+
+.whitebox3 {
+   background-color: whitesmoke;
+   height: 200px;
+   text-decoration: none;
+   width: 200px;
+   border: 2px solid whitesmoke;
+   box-shadow: 2px 2px 2px grey;
+   border-radius: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition-duration: 1s;
+   transition-property: all;
+   margin: 20px;
+   font-weight: 750;
+}
+
+.whitebox4 {
+   background-color: whitesmoke;
+   height: 200px;
+   text-decoration: none;
+   width: 200px;
+   border: 2px solid whitesmoke;
+   box-shadow: 2px 2px 2px grey;
+   border-radius: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition-duration: 1s;
+   transition-property: all;
+   margin: 20px;
+   font-weight: 750;
+}
+
+.pro {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin: 20px;
+   padding: 20px;
+}
+
+.whitebox2:hover {
+   background-color: gray;
+   transform: scale(1.15, 1.15);
+
+}
+
+.whitebox4:hover {
+   background-color: gray;
+   transform: scale(1.15, 1.15);
+
+}
+
+.whitebox:hover {
+   background-color: gray;
+   transform: scale(1.15, 1.15);
+}
+
+.whitebox3:hover {
+   background-color: gray;
+   transform: scale(1.15, 1.15);
+}
+
+.pro a {
+   text-decoration: none;
+   color: black;
+}
+
+.a a {
+   text-decoration: none;
+}
+
+.mail {
+   margin: 20px;
+   color: black;
+}
+
+.text {
+   margin: 20px;
+   color: black;
+}
+
+.mail a:link {
+   color: black;
+}
+
+ol {
+   background-color: rgb(202, 201, 225);
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: normal;
+   font-weight: 100;
+   text-indent: 5px;
+   border-radius: 8px;
+   max-width: 1200px;
+   max-height: 1200px;
+   margin: 20px;
+   padding: 40px;
+}
+
+img {
+   height: 150px;
+   width: 150px;
+   border: 2px solid black;
+   border-radius: 50;
+
+}
+
+.mail a:hover {
+   color: blue
+}
+
+.container {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-around;
+}
+
+h3 {
+   text-align: center;
+}
+
+td {
+   width: 400px;
+}
+
+.circle{
+   position: relative;
+   bottom: 200px;
+   left: 88%;
+   border-radius: 50%;
+
+}
+.up{
+   position: relative;
+   bottom: 150px;
+}
